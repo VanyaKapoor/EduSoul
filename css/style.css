@@ -63,13 +63,33 @@ body {
   width: 100vw;
 }
 
+.banner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+} 
+
 .landing-scene {
   display: block;
   height: 100vh;
   width: 100%;
   margin: auto;
   /* padding: auto; */
-  background: url("../assets/images/landing2.png");
+  /* background: url("../assets/images/landing2.png"); */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
