@@ -86,7 +86,7 @@ body {
   min-height: 75vh;
   max-height: 90vh;
   width: 50%;
-  border: solid blueviolet;
+  /* border: solid blueviolet; */
 }
 h1.title1 {
   display: block;
