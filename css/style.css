@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   display: block;
@@ -11,7 +11,7 @@ body {
   box-shadow: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
 }
 
@@ -45,6 +45,7 @@ body {
   padding: 0 2vw;
   color: #99e2b4;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .nav-icon-bg {
@@ -57,7 +58,7 @@ body {
   background-color: #14746f;
   transform: skewX(-15deg);
   transition: width 1s;
-} 
+}
 /* TO BE CHANGED LATER, ON SCROLL (probably js would help) */
 .nav-icon-bg:hover {
   width: 100vw;
@@ -81,7 +82,7 @@ body {
   height: 100%;
   pointer-events: none;
   z-index: -1;
-} 
+}
 
 .landing-scene {
   display: block;
@@ -96,7 +97,7 @@ body {
   /* background-color: black; */
 }
 
-.title{
+.title {
   display: flex;
   flex-direction: column;
   /* margin-left: 1em; */
@@ -139,7 +140,7 @@ h1.title3 {
 button {
   background-color: #67b99a; /* Green */
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   padding: auto;
   text-decoration: none;
@@ -151,6 +152,7 @@ button {
   vertical-align: middle;
   font-size: 16px;
   transition: background 0.5s;
+  cursor: pointer;
 }
 
 button:hover {
