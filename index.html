@@ -1,98 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EduSoul</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/content.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!-- Video Main -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduSoul</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/content.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+</head>
 
-    <div class="banner">
-      <div class="banner-overlay"></div>
-      <video autoplay muted loop src="assets/images/main.mp4"></video>
-    </div>
+<body>
+  <!-- Video Main -->
 
-    <div class="landing-scene">
-      <div class="nav" id="nav">
-        <div class="nav-left">
-          <div class="nav-icon-bg" id="nav-bg"></div>
-          <img
-            style="height: 70px; margin-right: 1em"
-            src="assets/logos/156x106.png"
-            alt="Edu Soul Logo"
-          />
+  <div class="banner">
+    <div class="banner-overlay"></div>
+    <video autoplay muted loop src="assets/images/main.mp4"></video>
+  </div>
+
+  <div class="landing-scene">
+    <div class="nav" id="nav">
+      <div class="nav-left">
+        <div class="nav-icon-bg" id="nav-bg"></div>
+        <img style="height: 70px; margin-right: 1em" src="assets/logos/156x106.png" alt="Edu Soul Logo" />
+        <div class="nav-items">
           <div class="nav-item">Home</div>
-          <div class="nav-item" style="position: relative; bottom: 4px">
+          <div class="nav-item">
             Courses
-            <span
-              style="color: #99e2b4; position: relative; top: 7px"
-              class="material-icons"
-            >
+            <span style="color: #99e2b4; font-size: 16px;" class="material-icons">
               expand_more
             </span>
           </div>
           <div class="nav-item">About Us</div>
         </div>
-        <div class="nav-right">
-          <div class="nav-item" style="color: #ffffff; font-weight: 900">
-            LOG IN
-          </div>
-          <button class="nav-item" style="color: #ffffff">DONATE NOW!</button>
+      </div>
+      <div class="nav-right">
+        <div class="nav-item" style="color: #ffffff; font-weight: 900">
+          LOG IN
         </div>
+        <button class="nav-item" style="color: #ffffff">DONATE NOW!</button>
       </div>
-
-      <div class="title">
-        <h1 class="title1">LEARNING</h1>
-        <h1 class="title2">IS FOR</h1>
-        <h1 class="title3">EVERYONE</h1>
-        <button style="margin: 1.5em auto">Donate Now!</button>
+      <div class="menu-icon-div">
+        <span class="material-icons" id="menu-icon">
+          menu
+        </span>
+      </div>
+    </div>
+    <div id="mySidepanel" class="sidepanel">
+      <div class="side-pane-div-upper">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a style="color: #99e2b4;" href="#">Home</a>
+        <a style="color: #99e2b4;" href="#">Courses</a>
+        <a style="color: #99e2b4;" href="#">About Us</a>
+      </div>
+      <div class="side-panel-div-lower">
+        <a style="color: #ffffff; font-weight: 900;" href="#">LOG IN</a>
+        <button style="color: #ffffff; margin-left: 20px;">DONATE NOW!</button>
       </div>
     </div>
 
-    <div class="cards">
-      <div class="card">
-        <img src="assets/logos/156x106.png" alt="logo" />
-        <h2>Title</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id
-          est repudiandae asperiores aspernatur amet officiis. Dolorum quidem
-          cum, qui voluptate dolores, ab laborum nobis necessitatibus reiciendis
-          animi magni consequatur.
-        </p>
-      </div>
-      <div class="card">
-        <img src="assets/logos/156x106.png" alt="logo" />
-        <h2>Title</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id
-          est repudiandae asperiores aspernatur amet officiis. Dolorum quidem
-          cum, qui voluptate dolores, ab laborum nobis necessitatibus reiciendis
-          animi magni consequatur. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Vero consequuntur voluptatibus sunt tempore autem
-          labore, quae fuga ut perspiciatis id sed laudantium ullam aperiam modi
-          deserunt quos, qui, rem error.
-        </p>
-      </div>
-      <div class="card">
-        <img src="assets/logos/156x106.png" alt="logo" />
-        <h2>Title</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id
-          est repudiandae asperiores aspernatur amet officiis. Dolorum quidem
-          cum, qui voluptate dolores, ab laborum nobis necessitatibus reiciendis
-          animi magni consequatur.
-        </p>
-      </div>
+    <div class="title">
+      <h1 class="title1">LEARNING</h1>
+      <h1 class="title2">IS FOR</h1>
+      <h1 class="title3">EVERYONE</h1>
+      <button class="title-btn">Donate Now!</button>
     </div>
-  </body>
-  <script src="./js/app.js"></script>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="assets/logos/156x106.png" alt="logo" />
+      <h2>Title</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id
+        est repudiandae asperiores aspernatur amet officiis. Dolorum quidem
+        cum, qui voluptate dolores, ab laborum nobis necessitatibus reiciendis
+        animi magni consequatur.
+      </p>
+    </div>
+    <div class="card">
+      <img src="assets/logos/156x106.png" alt="logo" />
+      <h2>Title</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id
+        est repudiandae asperiores aspernatur amet officiis. Dolorum quidem
+        cum, qui voluptate dolores, ab laborum nobis necessitatibus reiciendis
+        animi magni consequatur. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Vero consequuntur voluptatibus sunt tempore autem
+        labore, quae fuga ut perspiciatis id sed laudantium ullam aperiam modi
+        deserunt quos, qui, rem error.
+      </p>
+    </div>
+    <div class="card">
+      <img src="assets/logos/156x106.png" alt="logo" />
+      <h2>Title</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id
+        est repudiandae asperiores aspernatur amet officiis. Dolorum quidem
+        cum, qui voluptate dolores, ab laborum nobis necessitatibus reiciendis
+        animi magni consequatur.
+      </p>
+    </div>
+  </div>
+</body>
+<script src="./js/app.js"></script>
+
 </html>

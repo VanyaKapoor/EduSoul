@@ -12,7 +12,8 @@ body {
   box-shadow: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 
@@ -22,13 +23,14 @@ body {
   top: 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   z-index: 2;
   /* disabling text selection :P */
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */      
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
 }
 .nav-left {
   padding: 0.5em;
@@ -66,6 +68,11 @@ body {
   transform: skewX(-15deg);
   transition: width 0.5s;
 }
+
+.nav-items {
+  display: flex;
+}
+
 /* TO BE CHANGED LATER, ON SCROLL (probably js would help) */
 .nav-icon-bg:hover {
   width: 100vw;
@@ -124,7 +131,6 @@ body {
   /* border: solid #ffffff; */
   margin-top: 5em;
   z-index: 1;
-  
 }
 h1.title1 {
   display: block;
@@ -146,8 +152,8 @@ h1.title3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 900;
-  font-size: 58px;
+  font-weight: 800;
+  font-size: 60px;
   color: #99e2b4;
   z-index: 1;
 }
@@ -166,6 +172,7 @@ button {
   vertical-align: middle;
   font-size: 16px;
   transition: background 0.5s;
+  cursor: pointer;
   box-shadow: #036666 0em 0em 0.5em;
 }
 
@@ -177,3 +184,55 @@ button:active {
   background-color: #036666;
 }
 
+.title-btn {
+  margin: 1.5em auto;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #67b99a;
+  padding: 10px;
+}
+
+#menu-icon {
+  color: #99e2b4;
+  cursor: pointer;
+  font-size: 30px;
+  display: none;
+}
+
+.sidepanel {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  background-color: #14746f;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.side-pane-div-upper {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #67b99a;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

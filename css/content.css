@@ -1,16 +1,19 @@
-
 .cards {
   display: flex;
+  flex-direction: row;
   /* margin: 1em 1em; */
   padding: 1em 1em;
   border-top: solid #99e2b4 5em;
   border-bottom: solid #99e2b4 5em;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .card {
   text-align: center;
   display: block;
-  width: 100%;
+  width: 500px;
   margin: 1em;
   padding: 2em;
   background: #99e2b4;
@@ -20,15 +23,15 @@
   cursor: default;
 }
 
-.card:hover{
-   transform: translateY(-1em) rotateZ(-3deg);
-   box-shadow: 0 1em 3em #14746f;
+.card:hover {
+  transform: translateY(-1em) rotateZ(-3deg);
+  box-shadow: 0 1em 3em #14746f;
 }
 
 .card p {
-    color: #14746f;
+  color: #14746f;
 }
 
 .card h2 {
-    color: #147;
+  color: #147;
 }
