@@ -1,0 +1,34 @@
+
+.cards {
+  display: flex;
+  /* margin: 1em 1em; */
+  padding: 1em 1em;
+  border-top: solid #99e2b4 5em;
+  border-bottom: solid #99e2b4 5em;
+}
+
+.card {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 1em;
+  padding: 2em;
+  background: #99e2b4;
+  border-radius: 10px;
+  box-shadow: 0 1em 1em #14746f;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: default;
+}
+
+.card:hover{
+   transform: translateY(-1em) rotateZ(-3deg);
+   box-shadow: 0 1em 3em #14746f;
+}
+
+.card p {
+    color: #14746f;
+}
+
+.card h2 {
+    color: #147;
+}
