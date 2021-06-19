@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+:root {
+  --white: #ffffff;
+  --light-blue: #78c0e0;
+  --blue: #449dd1;
+  --dark-blue: #052038;
+}
+
 body {
   display: block;
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  background: #67b99a;
+  background: var(--blue);
 }
 
 * {
@@ -51,7 +58,7 @@ body {
 .nav-item {
   vertical-align: middle;
   padding: 0 2vw;
-  color: #99e2b4;
+  color: var(--light-blue);
   font-weight: 700;
   cursor: pointer;
 }
@@ -63,8 +70,8 @@ body {
   width: 100px;
   height: 75px;
   z-index: -1;
-  background-color: #14746f;
-  box-shadow: #14746f 0em 0em 0.25em;
+  background-color: var(--dark-blue);
+  box-shadow: var(--dark-blue) 0em 0em 0.25em;
   transform: skewX(-15deg);
   transition: width 0.5s;
 }
@@ -154,12 +161,18 @@ h1.title3 {
   margin-right: auto;
   font-weight: 800;
   font-size: 60px;
-  color: #99e2b4;
+  color: var(--light-blue);
   z-index: 1;
 }
 
+h1.title3::after {
+  content: "";
+  border-right: 2px solid var(--light-blue);
+  animation: typeEffect 1s infinite ease;
+}
+
 button {
-  background-color: #67b99a; /* Green */
+  background-color: var(--light-blue);
   border: none;
   color: #ffffff;
   font-weight: 700;
@@ -173,27 +186,23 @@ button {
   font-size: 16px;
   transition: background 0.5s;
   cursor: pointer;
-  box-shadow: #036666 0em 0em 0.5em;
+  box-shadow: var(--blue) 0em 0em 0.5em;
 }
 
 button:hover {
-  background-color: #99e2b4; /* Green */
-}
-
-button:active {
-  background-color: #036666;
+  background-color: var(--blue);
 }
 
 .title-btn {
   margin: 1.5em auto;
   cursor: pointer;
   background: transparent;
-  border: 2px solid #67b99a;
+  border: 2px solid var(--light-blue);
   padding: 10px;
 }
 
 #menu-icon {
-  color: #99e2b4;
+  color: var(--light-blue);
   cursor: pointer;
   font-size: 30px;
   display: none;
@@ -206,7 +215,7 @@ button:active {
   z-index: 10;
   top: 0;
   right: 0;
-  background-color: #14746f;
+  background-color: var(--dark-blue);
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -224,7 +233,7 @@ button:active {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #67b99a;
+  color: var(--light-blue);
   display: block;
   transition: 0.3s;
 }
@@ -235,4 +244,28 @@ button:active {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  font-size: 16px;
+  color: var(--light-blue);
+}
+
+@keyframes typeEffect {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
