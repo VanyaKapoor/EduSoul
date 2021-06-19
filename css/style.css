@@ -201,6 +201,35 @@ button:hover {
   padding: 10px;
 }
 
+.desc-bg {
+  margin-top: 4rem;
+  width: 100%;
+  height: 50rem;
+  color: #FFF5FD;
+}
+
+.first-image img {
+  margin-left: 8px;
+  position: absolute;
+  width: 20rem;
+}
+
+.second-image img {
+  position: absolute;
+  margin-left: 19.5rem;
+  margin-top: 10rem;
+  width: 25rem;
+}
+
+.third-image img {
+  position: absolute;
+  margin-left: 8px;
+  width: 20rem;
+  margin-top: 23rem;
+  z-index: -1;
+  height: 14rem;
+}
+
 #menu-icon {
   color: var(--light-blue);
   cursor: pointer;
