@@ -211,24 +211,48 @@ button:hover {
 .first-image img {
   margin-left: 8px;
   position: absolute;
-  width: 20rem;
+  width: 17rem;
+  border: 10px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+  border-image-slice: 1;
 }
 
 .second-image img {
   position: absolute;
-  margin-left: 19.5rem;
+  margin-left: 17.5rem;
   margin-top: 10rem;
-  width: 25rem;
+  width: 22rem;
+  border: 10px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+  border-image-slice: 1;
 }
 
 .third-image img {
   position: absolute;
   margin-left: 8px;
-  width: 20rem;
+  width: 17rem;
   margin-top: 23rem;
   z-index: -1;
-  height: 14rem;
+  height: 11.5rem;
+  border: 10px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+  border-image-slice: 1;
 }
+
+.desc-heading {
+  margin-top: 7rem;
+  margin-left: 50rem;
+  position: relative;
+  height: 30px;
+  width: 25rem;
+}
+
 
 #menu-icon {
   color: var(--light-blue);
@@ -242,6 +266,10 @@ button:hover {
   width: 0;
   position: fixed;
   z-index: 10;
+  border: 2px solid linear-gradient(
+#12c2e9, 
+#c471ed, 
+#f64f59);
   top: 0;
   right: 0;
   background-color: var(--dark-blue);
