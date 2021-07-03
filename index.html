@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -37,6 +38,7 @@
             </span>
           </div>
           <div class="nav-item">About Us</div>
+          <div class="nav-item"><a class="nav-item link" href="#contact">Contact Us</a></div>
         </div>
       </div>
       <div class="nav-right">
@@ -75,7 +77,7 @@
 
   <!-- Description Section -->
 
-
+  <h1 class="heading-primary">Cards Heading</h1>
   <div class="cards">
     <div class="card">
       <img src="assets/logos/150x102.png" alt="logo" />
@@ -113,17 +115,19 @@
   </div>
 
   <section class="desc-bg">
-    <div class="first-image">
-      <img src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg" alt="another org image">
-    </div>
-    <div class="second-image">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oDj9eew4jfjtgZU0rVl3P5dTLq8L_J-lO9flWjIc-4cvAYh-40HBVsmz2fQZv5uDZhs&usqp=CAU"
-        alt="image of org">
-    </div>
-    <div class="third-image">
-      <img src="https://wallpapertag.com/wallpaper/full/c/2/5/459771-top-cool-cat-backgrounds-1920x1200-computer.jpg"
-        alt="image of org">
+    <div class="org-images">
+      <div class="first-image">
+        <img src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg" alt="another org image">
+      </div>
+      <div class="second-image">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oDj9eew4jfjtgZU0rVl3P5dTLq8L_J-lO9flWjIc-4cvAYh-40HBVsmz2fQZv5uDZhs&usqp=CAU"
+          alt="image of org">
+      </div>
+      <div class="third-image">
+        <img src="https://wallpapertag.com/wallpaper/full/c/2/5/459771-top-cool-cat-backgrounds-1920x1200-computer.jpg"
+          alt="image of org">
+      </div>
     </div>
     <div class="content">
       <h2>Organisation</h2>
@@ -137,18 +141,36 @@
         laboriosam provident esse voluptas ad ratione, ipsam veritatis. Quo, facilis! Recusandae rerum minima iusto at?
         laboriosam provident esse voluptas ad ratione, ipsam veritatis. Quo, facilis! Recusandae rerum minima iusto at?
       </p>
+      <button class="btn-org-one">Read More.</button>
     </div>
   </section>
-
+  <!-- Contact us section -->
+  <section id="contact">
+    <h1 class="heading-primary">Contact Us</h1>
+    <div class="contact-text-div">
+      <p class="contact-text contact-text-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nulla!</p>
+      <p class="contact-text contact-text-two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae molestiae
+        eius maiores
+        eos!
+        Inventore fugit qui
+        nemo temporibus quam perferendis.</p>
+      <p class="contact-text contact-text-three">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum ad
+        omnis voluptas
+        ullam!
+        Ducimus nesciunt
+        repellendus aperiam dolor molestiae autem optio. Praesentium, blanditiis quo!</p>
+    </div>
+    <button class="contact-form-btn">Contact Us</button>
+  </section>
   <!-- FAQ Section -->
   <main>
-    <h1 class="faq-heading">FAQ</h1>
+    <h1 class="heading-primary faq-heading">FAQs</h1>
     <details>
       <summary>
         What is HTML
       </summary>
       <div class="contentfaq">
-        <p>HTML is a markup language used on the web to display webpages.</p>
+        <p class="faq-content-text">HTML is a markup language used on the web to display webpages.</p>
       </div>
     </details>
     <details>
@@ -156,7 +178,7 @@
         What is CSS
       </summary>
       <div class="contentfaq">
-        <p>CSS is used to style HTML elements</p>
+        <p class="faq-content-text">CSS is used to style HTML elements</p>
       </div>
     </details>
     <details>
@@ -164,7 +186,8 @@
         What is JavaScript
       </summary>
       <div class="contentfaq">
-        <p>JavaScript adds interactivty to as site such as modal windows and client side form validation</p>
+        <p class="faq-content-text">JavaScript adds interactivty to as site such as modal windows and client side form
+          validation</p>
       </div>
     </details>
     <details>
@@ -172,7 +195,8 @@
         What is PHP
       </summary>
       <div class="contentfaq">
-        <p>PHP is a server side language that allows interacting with backend services like databases</p>
+        <p class="faq-content-text">PHP is a server side language that allows interacting with backend services like
+          databases</p>
       </div>
     </details>
   </main>

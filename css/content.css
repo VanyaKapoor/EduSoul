@@ -1,37 +1,35 @@
 .cards {
-  display: flex;
-  flex-direction: row;
-  /* margin: 1em 1em; */
-  padding: 1em 1em;
-  border-top: solid var(--light-blue) 5em;
-  border-bottom: solid var(--light-blue) 5em;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    padding: 1em 1em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .card {
-  text-align: center;
-  display: block;
-  width: 500px;
-  margin: 1em;
-  padding: 2em;
-  background: var(--light-blue);
-  border-radius: 10px;
-  box-shadow: 0 1em 1em var(--blue);
-  transition: box-shadow 0.2s, transform 0.2s;
-  cursor: default;
+    text-align: center;
+    display: block;
+    width: calc(100% / 3);
+    margin: 1em;
+    padding: 2em;
+    background: var(--light-blue);
+    border-radius: 10px;
+    box-shadow: 0 1em 1em var(--blue);
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: default;
 }
 
 .card:hover {
-  transform: translateY(-1em) rotateZ(-3deg);
-  box-shadow: 0 1em 3em var(--blue);
+    transform: translateY(-1em) rotateZ(-3deg);
+    box-shadow: 0 1em 3em var(--blue);
 }
 
 .card p {
-  color: var(--dark-blue);
+    color: var(--dark-blue);
 }
 
 .card h2 {
-  color: var(--dark-blue);
+    color: var(--dark-blue);
 }
