@@ -105,3 +105,4 @@ function main() {
 }
 // calling the init method when the Dom content is loaded
 document.addEventListener("DOMContentLoaded", main);
+
