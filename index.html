@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/logos/100x68.png" type="image/x-icon">
   <title>EduSoul</title>
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/content.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="./css/forms.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -144,26 +146,8 @@
       <button class="btn-org-one">Read More.</button>
     </div>
   </section>
-  <!-- Contact us section -->
-  <section id="contact">
-    <h1 class="heading-primary">Contact Us</h1>
-    <div class="contact-text-div">
-      <p class="contact-text contact-text-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nulla!</p>
-      <p class="contact-text contact-text-two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae molestiae
-        eius maiores
-        eos!
-        Inventore fugit qui
-        nemo temporibus quam perferendis.</p>
-      <p class="contact-text contact-text-three">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum ad
-        omnis voluptas
-        ullam!
-        Ducimus nesciunt
-        repellendus aperiam dolor molestiae autem optio. Praesentium, blanditiis quo!</p>
-    </div>
-    <button class="contact-form-btn">Contact Us</button>
-  </section>
   <!-- FAQ Section -->
-  <main>
+  <div class="faq">
     <h1 class="heading-primary faq-heading">FAQs</h1>
     <details>
       <summary>
@@ -199,8 +183,34 @@
           databases</p>
       </div>
     </details>
-  </main>
+  </div>
 
+
+  <!-- Contact us section -->
+  <section id="contact">
+    <h1 class="heading-primary">Contact Us</h1>
+    <div class="contact-text-div">
+      <p class="contact-text contact-text-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nulla!</p>
+      <p class="contact-text contact-text-two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae molestiae
+        eius maiores
+        eos!
+        Inventore fugit qui
+        nemo temporibus quam perferendis.</p>
+      <p class="contact-text contact-text-three">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum ad
+        omnis voluptas
+        ullam!
+        Ducimus nesciunt
+        repellendus aperiam dolor molestiae autem optio. Praesentium, blanditiis quo!</p>
+    </div>
+    <div class="form">
+      <div class="form-grid">
+        <div class="form-field-name">Name:</div> <textarea name="name" id="name" cols="20" rows="1">Name</textarea>
+        <div class="form-field-name">Subject:</div> <textarea name="sub" id="name" cols="20" rows="1">Subject</textarea>
+        <div class="form-field-name">Content:</div> <textarea name="content" id="name" cols="20"
+          rows="5">Content</textarea>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <div class="footer-content">
