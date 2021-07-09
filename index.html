@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/content.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="stylesheet" href="./css/forms.css" />
+  <link rel="stylesheet" href="./css/slider.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -116,36 +117,70 @@
     </div>
   </div>
 
-  <section class="desc-bg">
-    <div class="org-images">
-      <div class="first-image">
-        <img src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg" alt="another org image">
-      </div>
-      <div class="second-image">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oDj9eew4jfjtgZU0rVl3P5dTLq8L_J-lO9flWjIc-4cvAYh-40HBVsmz2fQZv5uDZhs&usqp=CAU"
-          alt="image of org">
-      </div>
-      <div class="third-image">
-        <img src="https://wallpapertag.com/wallpaper/full/c/2/5/459771-top-cool-cat-backgrounds-1920x1200-computer.jpg"
-          alt="image of org">
-      </div>
-    </div>
-    <div class="content">
-      <h2>Organisation</h2>
-      <h2>Organisation</h2>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum fugiat consequatur dignissimos doloremque
-        explicabo modi earum, quam expedita impedit, saepe aspernatur culpa dicta neque ratione enim eius iste quasi?
-        Nisi, magni dolor commodi placeat soluta sit quo tempora distinctio neque quae corporis inventore maiores,
-        laboriosam provident esse voluptas ad ratione, ipsam veritatis. Quo, facilis! Recusandae rerum minima iusto at?
-        laboriosam provident esse voluptas ad ratione, ipsam veritatis. Quo, facilis! Recusandae rerum minima iusto at?
-        laboriosam provident esse voluptas ad ratione, ipsam veritatis. Quo, facilis! Recusandae rerum minima iusto at?
-      </p>
-      <button class="btn-org-one">Read More.</button>
-    </div>
+  <section class="slider-header">
+    <h1>Our Initiative</h1>
   </section>
+
+  <div class="slider">
+    <div class="slide active">
+      <img src="https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/FL155_Remote_Teaching_Blog_Image.jpg"
+        alt="">
+      <div class="info">
+        <h2>Winter Mountains</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img
+        src="https://www.gyanipandit.com/en/wp-content/uploads/2020/12/Education-is-the-only-key-to-empower-a-girl-53d72a5b.jpg"
+        alt="">
+      <div class="info">
+        <h2>Tropical Desert</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img
+        src="https://en-media.thebetterindia.com/uploads/2018/02/Tejasvita.jpg?compress=true&quality=90&w=480&dpr=2.6"
+        alt="">
+      <div class="info">
+        <h2>Steaming Volcanoes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://wallpaper.dog/large/300465.jpg" alt="">
+      <div class="info">
+        <h2>Mountain River</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://pbs.twimg.com/media/EiD28d2WkAE5i05.jpg" alt="">
+      <div class="info">
+        <h2>Egypt Pyramids</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="navigation">
+      <i class="fas fa-chevron-left prev-btn"></i>
+      <i class="fas fa-chevron-right next-btn"></i>
+    </div>
+    <div class="navigation-visibility">
+      <div class="slide-icon active"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+    </div>
+  </div>
+
+
   <!-- FAQ Section -->
   <div class="faq">
     <h1 class="heading-primary faq-heading">FAQs</h1>
@@ -224,5 +259,6 @@
 
 </body>
 <script src="./js/app.js"></script>
+<script src="./js/slider.js"></script>
 
 </html>
