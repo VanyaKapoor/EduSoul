@@ -576,3 +576,47 @@ footer {
 .link {
     text-decoration: none;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 40px;
+}
+
+.about-heading {
+    margin: 30px auto;
+}
+
+#about-para {
+    color: var(--pale-blue);
+    line-height: 35px;
+}
+
+#about-regard {
+    margin-top: 20px;
+    color: var(--pale-blue);
+}
+
+#about-bold {
+    color: var(--pale-blue);
+}
+
+.about-founder-div {
+    display: flex;
+}
+
+.founder {
+    padding: 20px;
+    background-color: var(--blue-saphire);
+    margin: auto 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    width: 300px;
+}
+
+.founder:hover {
+    transform: scale(1.02);
+}
