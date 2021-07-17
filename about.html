@@ -5,8 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="shortcut icon" href="assets/logos/100x68.png" type="image/x-icon">
     <title>EduSoul</title>
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -14,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/team-testimonial.css">
 </head>
 
 <body>
@@ -89,7 +95,59 @@
                     Team EduSoul</p>
                 <div class="about-team">
                     <h1 class="heading-primary about-heading">Our Team</h1>
-                    <div class="about-team-inner-div">
+                    <section class="team">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonialBox">
+                                        <img src="./assets/images/quote.png" alt="" class="quote">
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure nulla vitae consequatur eaque itaque sequi incidunt aspernatur, quam enim quod distinctio, sint deleniti voluptates rem magnam? Deserunt, expedita vel.</p>
+                                            <div class="details">
+                                                <div class="imgBx">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQumhSfrsPVmySOosFZYC7whgp_WtCv_Rkckw&usqp=CAU" alt="">
+                                                </div>
+                                                <h3>Ridhim RJ<br><span>Creative Designer</span></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="testimonialBox">
+                                        <img src="./assets/images/quote.png" alt="" class="quote">
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure nulla vitae consequatur eaque itaque sequi incidunt aspernatur, quam enim quod distinctio, sint deleniti voluptates rem magnam? Deserunt, expedita vel.</p>
+                                            <div class="details">
+                                                <div class="imgBx">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMLxS1w96SLU0-KF-pOCL2YBmgSTo8D91pA&usqp=CAU alt="">
+                                                </div>
+                                                <h3>Ridhim RJ<br><span>Creative Designer</span></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="swiper-slide">
+                                    <div class="testimonialBox">
+                                        <img src="quote.png" alt="" class="quote">
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure nulla vitae consequatur eaque itaque sequi incidunt aspernatur, quam enim quod distinctio, sint deleniti voluptates rem magnam? Deserunt, expedita vel.</p>
+                                            <div class="details">
+                                                <div class="imgBx">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSGHz64bsJBuqTO-H0bMUy2rZmQQUI9qSqWwq3cUoQgD-Xgh_0SRPCNWxuZILW9lbsYm4nqNBgHpc&usqp=CAU" alt="">
+                                                </div>
+                                                <h3>Ridhim RJ<br><span>Creative Designer</span></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-- <div class="about-team-inner-div">
                         <div class="about-founder-div">
                             <div class="founder founder-one">
                                 <p><b>Vanya Kapoor</b></p>
@@ -103,49 +161,59 @@
                                 <p>CO-FOUNDER</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </div>
-
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+        //   loop:true,
+        });
+      </script>
+</body>
 </html>
 
 <!-- 1.Vanya Kapoor
 Grade 9, Sanskriti School
 CO-FOUNDER
-
 2.NANDINI TEWARI
 Grade 9, Sanskriti School
 CO-FOUNDER
-
 3.Tvisha Singla
 Grade 9, Sanskriti School
 Research and Resource Development Team
-
 4.Shreya Anand
 Grade 9, Sanskriti School
 Research and Resource Development Team
-
 5.Bhanupratap Singh Rathi
 Grade 9, Sanskriti School
 Research and Resource Development Team
-
 6.Satvik Arora
 Grade 9, Sanskriti School
 Research and Resource Development Team
-
 7.Aditya Nandan
 Grade 11, school
 Tech team
-
 8.Lakshya Gupta
 Grade 10, school
 Tech team
-
 9.Vatsal Bansal
 Grade 9, school
 Tech team
-
 10.Ritesh Singh
 Grade 9, school
 Tech team -->
