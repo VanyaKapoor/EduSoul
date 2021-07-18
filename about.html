@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Sweeper js</title> -->
+    <title>Responsive Testimonial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link
     rel="stylesheet"
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="shortcut icon" href="assets/logos/100x68.png" type="image/x-icon">
-    <title>EduSoul</title>
-
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./css/team-testimonial.css">
+    <link rel="stylesheet" href="./css/about us.css">
+    <link rel="stylesheet" href="./css/tab-change.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" > -->
 </head>
-
 <body>
-
-
     <div class="landing-scene">
         <div class="nav" id="nav">
             <div class="nav-left">
@@ -35,9 +27,7 @@
 
                     <div class="nav-item">
                         Courses
-                        <span style="color: #78c0e0; font-size: 16px;" class="material-icons">
-                            expand_more
-                        </span>
+                        <span style="color: #78c0e0; font-size: 16px;" class="material-icons"><i class="fas fa-caret-down" style="color: #78c0e0;"></i></span>
                     </div>
                     <div class="nav-item"><a href="./about.html" class="nav-item link">About Us</a></div>
                     <div class="nav-item"><a class="nav-item link" href="./index.html#contact">Contact Us</a></div>
@@ -53,18 +43,6 @@
                 <span class="material-icons" id="menu-icon">
                     menu
                 </span>
-            </div>
-        </div>
-        <div id="mySidepanel" class="sidepanel">
-            <div class="side-pane-div-upper">
-                <a class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Home</a>
-                <a href="#">Courses</a>
-                <a href="#">About Us</a>
-            </div>
-            <div class="side-panel-div-lower">
-                <a style="color: #ffffff; font-weight: 900;" href="#">LOG IN</a>
-                <button style="color: #ffffff; margin-left: 20px;">DONATE NOW!</button>
             </div>
         </div>
         <script src="./js/app.js"></script>
@@ -93,79 +71,200 @@
                     movement. Your participation can light up and build someone’s future!</p>
                 <p id="about-regard">Regards,
                     Team EduSoul</p>
-                <div class="about-team">
-                    <h1 class="heading-primary about-heading">Our Team</h1>
-                    <section class="team">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testimonialBox">
-                                        <img src="./assets/images/quote.png" alt="" class="quote">
-                                        <div class="content">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure nulla vitae consequatur eaque itaque sequi incidunt aspernatur, quam enim quod distinctio, sint deleniti voluptates rem magnam? Deserunt, expedita vel.</p>
-                                            <div class="details">
-                                                <div class="imgBx">
-                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQumhSfrsPVmySOosFZYC7whgp_WtCv_Rkckw&usqp=CAU" alt="">
-                                                </div>
-                                                <h3>Ridhim RJ<br><span>Creative Designer</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                
-                                <div class="swiper-slide">
-                                    <div class="testimonialBox">
-                                        <img src="./assets/images/quote.png" alt="" class="quote">
-                                        <div class="content">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure nulla vitae consequatur eaque itaque sequi incidunt aspernatur, quam enim quod distinctio, sint deleniti voluptates rem magnam? Deserunt, expedita vel.</p>
-                                            <div class="details">
-                                                <div class="imgBx">
-                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMLxS1w96SLU0-KF-pOCL2YBmgSTo8D91pA&usqp=CAU alt="">
-                                                </div>
-                                                <h3>Ridhim RJ<br><span>Creative Designer</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                
-                                <div class="swiper-slide">
-                                    <div class="testimonialBox">
-                                        <img src="quote.png" alt="" class="quote">
-                                        <div class="content">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure nulla vitae consequatur eaque itaque sequi incidunt aspernatur, quam enim quod distinctio, sint deleniti voluptates rem magnam? Deserunt, expedita vel.</p>
-                                            <div class="details">
-                                                <div class="imgBx">
-                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSGHz64bsJBuqTO-H0bMUy2rZmQQUI9qSqWwq3cUoQgD-Xgh_0SRPCNWxuZILW9lbsYm4nqNBgHpc&usqp=CAU" alt="">
-                                                </div>
-                                                <h3>Ridhim RJ<br><span>Creative Designer</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!-- <div class="about-team-inner-div">
-                        <div class="about-founder-div">
-                            <div class="founder founder-one">
-                                <p><b>Vanya Kapoor</b></p>
-                                <p>Grade 9, Sanskriti School</p>
-                                <p>CO-FOUNDER</p>
-                            </div>
-                            <div class="founder founder-two">
-
-                                <p><b>Nandini Tewari</b></p>
-                                <p>Grade 9, Sanskriti School</p>
-                                <p>CO-FOUNDER</p>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </section>
         </div>
     </div>
+    <section id="team">
+        <div class="ourTeam"><h1 class="heading-primary about-heading">Our Team</h1></div>
+        <div class="tab">
+          <i class="tab1 tabs border"><h3>Founders / Researchers</h3></i>
+          <i class="tab2 tabs"><h3>Developers - section</h3></i>
+        </div>
+        <div class="founders-tab">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonialBox">
+                    <img src="./assets/images/quote.png" alt="'" class="quote">
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                      </p>
+                      <div class="details">
+                        <div class="imgBx">
+                          <img src="https://media.discordapp.net/attachments/865995952330113024/865996044424839188/Pink_and_Yellow_Freeform_Schools_and_Education_Instagram_Post_.png?width=540&height=540" alt="">
+                        </div>
+                        <h3>Vanaya Kapoor<br> <span>CO-FOUNDER</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonialBox">
+                    <img src="./assets/images/quote.png" alt="'" class="quote">
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                      </p>
+                      <div class="details">
+                        <div class="imgBx">
+                          <img src="https://media.discordapp.net/attachments/865995952330113024/866033240665358366/IMG-20210717-WA0005.jpg?width=396&height=586" alt="">
+                        </div>
+                        <h3>Nandini<br> <span>CO-FOUNDER</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonialBox">
+                    <img src="./assets/images/quote.png" alt="'" class="quote">
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                      </p>
+                      <div class="details">
+                        <div class="imgBx">
+                          <img src="https://media.discordapp.net/attachments/865995952330113024/866334939203895326/dark.jpg?width=586&height=586" alt="">
+                        </div>
+                        <h3>Satvik Arora  <br> <span>RESEARCH TEAM</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="testimonialBox">
+                      <img src="./assets/images/quote.png" alt="'" class="quote">
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                        </p>
+                        <div class="details">
+                          <div class="imgBx">
+                            <img src="https://media.discordapp.net/attachments/865995952330113024/865997452031950878/Pink_and_Yellow_Freeform_Schools_and_Education_Instagram_Post_2.png?width=540&height=540" alt="">
+                          </div>
+                          <h3>Shreya Anand<br> <span>RESEARCH TEAM</span></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonialBox">
+                      <img src="./assets/images/quote.png" alt="'" class="quote">
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                        </p>
+                        <div class="details">
+                          <div class="imgBx">
+                            <img src="https://media.discordapp.net/attachments/865995952330113024/865996770060140554/Pink_and_Yellow_Freeform_Schools_and_Education_Instagram_Post_1.png?width=540&height=540" alt="">
+                          </div>
+                          <h3>Tvisha Singla  <br> <span>RESEARCH TEAM</span></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+          </div>
+          
+        </div>
+        <div class="tech-team-tab none">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonialBox">
+                    <img src="./assets/images/quote.png" alt="'" class="quote">
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                      </p>
+                      <div class="details">
+                        <div class="imgBx">
+                          <img src="https://media.discordapp.net/attachments/865995952330113024/866315734228140042/Pink_and_Yellow_Freeform_Schools_and_Education_Instagram_Post_3.png?width=540&height=540" alt="">
+                        </div>
+                        <h3>Vatsal Bansal<br> <span>DEVELOPER</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonialBox">
+                    <img src="./assets/images/quote.png" alt="'" class="quote">
+                    <div class="content">
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                      </p>
+                      <div class="details">
+                        <div class="imgBx">
+                          <img src="https://media.discordapp.net/attachments/865995952330113024/866319031514300426/Pink_and_Yellow_Freeform_Schools_and_Education_Instagram_Post_5.png?width=586&height=586" alt="">
+                        </div>
+                        <h3>! Ridham RJ !<br> <span>DEVELOPER</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="testimonialBox">
+                      <img src="./assets/images/quote.png" alt="'" class="quote">
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                        </p>
+                        <div class="details">
+                          <div class="imgBx">
+                            <img src="https://media.discordapp.net/attachments/777925134773518369/866330673769087006/z02cxiwD_400x400.png" alt="">
+                          </div>
+                          <h3>M_Aditya<br> <span>DEVELOPER</span></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonialBox">
+                      <img src="./assets/images/quote.png" alt="'" class="quote">
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                        </p>
+                        <div class="details">
+                          <div class="imgBx">
+                            <img src="https://media.discordapp.net/attachments/865995952330113024/866320360302444544/Luffy.jpg?width=1043&height=586" alt="">
+                          </div>
+                          <h3>Ritesh Singh  <br> <span>DEVELOPER</span></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonialBox">
+                      <img src="./assets/images/quote.png" alt="'" class="quote">
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempora quasi dolore doloribus corporis quibusdam quas voluptatem culpa dolores consequuntur autem magnam veniam iusto nam impedit, reiciendis quos possimus enim.
+                        </p>
+                        <div class="details">
+                          <div class="imgBx">
+                            <img src="https://media.discordapp.net/attachments/865995952330113024/866334525503963146/discord-logo-icon-20.png" alt="">
+                          </div>
+                          <h3>Lakshayy  <br> <span>DEVELOPER</span></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <h3>EduSoul</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2021 EduSoul. designed by <span>EduSoul Devs</span></p>
+      </div>
+    </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
     <script>
@@ -181,39 +280,10 @@
             modifier: 1,
             slideShadows: true,
           },
-        //   loop:true,
+          loop:true,
         });
-      </script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/tab-change.js"></script>
 </body>
 </html>
-
-<!-- 1.Vanya Kapoor
-Grade 9, Sanskriti School
-CO-FOUNDER
-2.NANDINI TEWARI
-Grade 9, Sanskriti School
-CO-FOUNDER
-3.Tvisha Singla
-Grade 9, Sanskriti School
-Research and Resource Development Team
-4.Shreya Anand
-Grade 9, Sanskriti School
-Research and Resource Development Team
-5.Bhanupratap Singh Rathi
-Grade 9, Sanskriti School
-Research and Resource Development Team
-6.Satvik Arora
-Grade 9, Sanskriti School
-Research and Resource Development Team
-7.Aditya Nandan
-Grade 11, school
-Tech team
-8.Lakshya Gupta
-Grade 10, school
-Tech team
-9.Vatsal Bansal
-Grade 9, school
-Tech team
-10.Ritesh Singh
-Grade 9, school
-Tech team -->
