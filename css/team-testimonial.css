@@ -7,7 +7,7 @@
     font-family: 'Montserrat';
 }
 
-.team{
+#team{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -67,8 +67,8 @@
   }
   .testimonialBox .details .imgBx {
       position: relative;
-      width: 60px;
-      height: 60px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       overflow: hidden;
       margin-right: 10px;
@@ -76,7 +76,8 @@
   .testimonialBox .details .imgBx img {
       position: absolute;
       top: 0;
-      left: 0;
+      /* left: ; */
+      right: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
