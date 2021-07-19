@@ -52,7 +52,7 @@
 .content p {
     margin-top: 1em;
     margin-bottom: 1em;
-    color: black;
+    color: rgba(56, 56, 56, 0.459);
     font-weight: bold;
 }
 
@@ -76,10 +76,14 @@
 
 .testimonialBox .details h3 {
     letter-spacing: 1px;
-    color: #2196f3;
+    color: #2195f3e0;
+    font-weight: lighter;
+
     line-height: 1.1em;
 }
 
 .testimonialBox .details h3 span {
+    color: #2195f3e0;
+    font-weight: lighter;
     font-size: 12px;
 }
