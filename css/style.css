@@ -80,7 +80,9 @@ body {
     transform: skewX(-15deg);
     transition: width 0.5s;
 }
-
+.abt{
+    color: var(--white);
+}
 .nav-items {
     display: flex;
 }
