@@ -570,8 +570,6 @@ footer {
     color: var(--dark-blue);
 }
 
-
-
 .link {
     text-decoration: none;
 }
@@ -618,4 +616,8 @@ footer {
 
 .founder:hover {
     transform: scale(1.02);
+}
+
+#team {
+    /* margin-top: 50px; */
 }

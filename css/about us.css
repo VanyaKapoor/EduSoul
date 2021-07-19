@@ -19,6 +19,57 @@ body {
     height: 100%;
     background: var(--blue);
 }
+
+#menu-icon {
+    color: var(--light-blue);
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.sidepanel {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    border: 2px solid linear-gradient(#12c2e9, #c471ed, #f64f59);
+    top: 0;
+    right: 0;
+    background-color: var(--dark-blue);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.side-pane-div-upper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--light-blue);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
 .nav {
     position: fixed;
     width: 100%;
@@ -155,7 +206,7 @@ button:hover {
 .about-founder-div {
     display: flex;
 }
-#team{
+#team {
     display: flex;
     flex-direction: column;
     background-color: var(--blue-saphire);
@@ -163,7 +214,7 @@ button:hover {
 /* h3 .vanya{
     font-size: small;
 } */
-h3{
+h3 {
     font-size: 17px;
 }
 footer {
@@ -214,4 +265,23 @@ footer {
     text-transform: uppercase;
     opacity: 0.4;
     font-weight: 200;
+}
+
+:root {
+    --white: #ffffff;
+    --light-blue: #78c0e0;
+    --blue: #052038;
+    --dark-blue: #449dd1;
+    --cyan-process-blue: #5eafd9;
+    --blue-saphire: #255f85;
+    --pale-blue: #cee5f2;
+}
+
+* {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Poppins", sans-serif;
+    color: white;
 }

@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-}
-
-#team{
+#team {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -22,76 +13,73 @@
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 320px;
     background: #fff;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-  }
+}
 
-  .swiper-slide-active {
-      background: #fff
-  }
+.swiper-slide-active {
+    background: #fff;
+}
 
-  .testimonialBox {
+.testimonialBox {
     position: relative;
     /* height: 38rem; */
-    width: 100%;
     padding: 40px;
     padding-top: 90px;
     color: #999;
-  }
+}
 
-  .testimonialBox .quote {
+.testimonialBox .quote {
     position: absolute;
     top: 20px;
     right: 20px;
     opacity: 0.2;
     /* padding-bottom: 10em; */
-  }
+}
 
-  .testimonialBox .details {
-      display: flex;
-      align-items: center;
-      margin-top: 20px;
-  }
-  .content{
+.testimonialBox .details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.content p {
     margin-top: 1em;
     margin-bottom: 1em;
-    /* color: black; */
+    color: black;
     font-weight: bold;
-  }
-  .testimonialBox .details .imgBx {
-      position: relative;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-right: 10px;
-  }
-  .testimonialBox .details .imgBx img {
-      position: absolute;
-      top: 0;
-      /* left: ; */
-      right: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
+}
 
-  .testimonialBox .details h3{
+.testimonialBox .details .imgBx {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.testimonialBox .details .imgBx img {
+    position: absolute;
+    top: 0;
+    /* left: ; */
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonialBox .details h3 {
     letter-spacing: 1px;
     color: #2196f3;
     line-height: 1.1em;
-  }
+}
 
-  .testimonialBox .details h3 span {
+.testimonialBox .details h3 span {
     font-size: 12px;
-  }
-
-
-
+}
