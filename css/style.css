@@ -451,6 +451,59 @@ button:hover {
         opacity: 0;
     }
 }
+
+/* Donation Code */
+
+.donation-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.donation{
+    width: 90%;
+    height: 80vh;
+    background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+    background-size: 400% 400%;
+    position: relative;
+    animation: animate 7.5s ease-in-out infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .donation h1{
+    color: #fff;
+    background: rgba(255,255,255,.2);
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+  }
+
+  .donation a {
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 36px;
+    padding: 10px 25px 10px 25px;
+    background: transparent;
+    border: 2px solid var(--light-blue);
+
+  }
+  
+  @keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+
 /* 
 /* FAQ Code */
 
