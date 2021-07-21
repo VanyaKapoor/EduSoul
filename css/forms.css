@@ -5,10 +5,12 @@
 .containers {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .container {
     width: 50%;
-    padding-right: 30px;
 }
 .container .row100 {
     padding-left: 50px;

@@ -1,55 +1,74 @@
 @media screen and (max-width: 900px) {
-  .cards {
-    flex-direction: column;
-    width: 90vw;
-  }
+    .cards {
+        flex-direction: column;
+        width: 90vw;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  .title {
-    width: 100%;
-    align-items: center;
-  }
+    .title {
+        width: 100%;
+        align-items: center;
+    }
 
-  h1.title1 {
-    font-weight: 500;
-    font-size: 40px;
-  }
+    h1.title1 {
+        font-weight: 500;
+        font-size: 40px;
+    }
 
-  h1.title2 {
-    font-weight: 80;
-    font-size: 50px;
-  }
+    h1.title2 {
+        font-weight: 80;
+        font-size: 50px;
+    }
 
-  h1.title3 {
-    font-weight: 500;
-    font-size: 40px;
-  }
+    h1.title3 {
+        font-weight: 500;
+        font-size: 40px;
+    }
 
-  .title-btn {
-    padding: 5px;
-  }
+    .title-btn {
+        padding: 5px;
+    }
 
-  .nav-items {
-    display: none;
-  }
+    .nav-items {
+        display: none;
+    }
 
-  .nav-right {
-    display: none;
-  }
+    .nav-right {
+        display: none;
+    }
 
-  #menu-icon {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
+    #menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
-  .menu-icon-div {
-    position: absolute;
-    top: 28px;
-    right: 10px;
-  }
-  .nav-icon-bg {
-    width: 100px;
-  }
+    .menu-icon-div {
+        position: absolute;
+        top: 28px;
+        right: 10px;
+    }
+    .nav-icon-bg {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .nav-item {
+        font-size: 14px;
+    }
+    .donation h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 80% !important;
+        margin-bottom: 20px;
+    }
+    .row100 .col {
+        text-align: center;
+    }
 }

@@ -35,7 +35,6 @@ body {
     top: 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     z-index: 2;
     /* disabling text selection :P */
@@ -64,7 +63,6 @@ body {
     vertical-align: middle;
     padding: 0 2vw;
     color: var(--white);
-    font-weight: 700;
     cursor: pointer;
 }
 
@@ -80,7 +78,7 @@ body {
     transform: skewX(-15deg);
     transition: width 0.5s;
 }
-.abt{
+.abt {
     color: var(--white);
 }
 .nav-items {
@@ -461,10 +459,21 @@ button:hover {
     margin-top: auto;
 }
 
-.donation{
+.donation {
     width: 90%;
     height: 80vh;
-    background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+    background: linear-gradient(
+        -45deg,
+        #3f51b1 0%,
+        #5a55ae 13%,
+        #7b5fac 25%,
+        #8f6aae 38%,
+        #a86aa4 50%,
+        #cc6b8e 62%,
+        #f18271 75%,
+        #f3a469 87%,
+        #f7c978 100%
+    );
     background-size: 400% 400%;
     position: relative;
     animation: animate 7.5s ease-in-out infinite;
@@ -472,37 +481,36 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .donation h1{
+}
+
+.donation h1 {
     color: #fff;
-    background: rgba(255,255,255,.2);
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     font-size: 50px;
     border-radius: 10px;
-  }
+}
 
-  .donation a {
+.donation a {
     margin-top: 20px;
     text-decoration: none;
     border-radius: 36px;
     padding: 10px 25px 10px 25px;
     background: transparent;
     border: 2px solid var(--light-blue);
+}
 
-  }
-  
-  @keyframes animate{
-    0%{
-      background-position: 0 50%;
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
     }
-    50%{
-      background-position: 100% 50%;
+    50% {
+        background-position: 100% 50%;
     }
-    100%{
-      background-position: 0 50%;
+    100% {
+        background-position: 0 50%;
     }
-  }
+}
 
 /* 
 /* FAQ Code */
@@ -540,17 +548,23 @@ details[open] summary ~ * {
     animation: open 0.5s ease-in-out;
 }
 
+.contact-text-one {
+    margin-top: 25px !important;
+}
+
 .contact-text-div {
     display: block;
     margin: auto;
     width: 50%;
     color: var(--white);
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact .contact-text {
-    /* color: var(--dark-blue); */
-    text-align: center;
-    margin: 10px;
 }
 
 @keyframes open {
