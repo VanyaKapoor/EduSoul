@@ -297,6 +297,35 @@
                     </div>
                 </div>
     </section>
+    <section class="section-card">
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h3>Member-1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro est possimus quo distinctio veniam mollitia.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h3>Member-2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro est possimus quo distinctio veniam mollitia.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h3>Member-3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro est possimus quo distinctio veniam mollitia.</p>
+
+                </div>
+            </div>
+        </div>
+  </section>
     <br><br><br><br>
     <footer>
         <div class="footer-content">
@@ -345,6 +374,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/tab-change.js"></script>
     <script src="./js/about.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 0,
+		speed: 400,
+        glare:true,
+        'max-glare':1,
+	});
+    </script>
 </body>
 
 </html>
