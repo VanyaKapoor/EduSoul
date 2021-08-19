@@ -3,6 +3,7 @@
         flex-wrap: wrap !important;
     }
 }
+
 @media screen and (max-width: 900px) {
     .cards {
         flex-direction: column;
@@ -10,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 955px) {
     .title {
         width: 100%;
         align-items: center;
@@ -68,6 +69,9 @@
     }
     .donation h1 {
         font-size: 20px;
+    }
+    .form-div form input {
+        font-size: 12px;
     }
 }
 
