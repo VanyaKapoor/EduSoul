@@ -1,3 +1,8 @@
+@media screen and (max-width: 1070px) {
+    .section-card {
+        flex-wrap: wrap !important;
+    }
+}
 @media screen and (max-width: 900px) {
     .cards {
         flex-direction: column;
@@ -5,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .title {
         width: 100%;
         align-items: center;
@@ -55,6 +60,9 @@
 }
 
 @media screen and (max-width: 760px) {
+    .contact-text-div {
+        width: 80%;
+    }
     .nav-item {
         font-size: 14px;
     }
