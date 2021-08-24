@@ -1,14 +1,14 @@
-.section-card{
+.section-card section {
     display: flex;
     /* flex-direction: row; */
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #161623;
-    margin-top: 20px;
-    margin-bottom: -60px;
 }
-.container{
+.section-card {
+    background-color: #161623;
+}
+
+.container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     z-index: 1;
     align-items: center;
 }
-.container .card{
+.container .card {
     position: relative;
     width: 300px;
     height: 300px;
@@ -33,19 +33,18 @@
     border-left: 1px solid rgba(0, 0, 0, 0.493);
     backdrop-filter: blur(5px);
 }
-.container .card .content{
+.container .card .content {
     padding: 20px;
     text-align: center;
     /* transform: translateY(100px); */
     opacity: 1;
     transition: 0.5s;
-    
 }
 /* .container .card .content:hover{
     transform: translateY(0);
     opacity: 1;
 } */
-.container .card .content h2{
+.container .card .content h2 {
     position: absolute;
     top: -60%;
     right: 30px;
@@ -53,20 +52,19 @@
     color: black;
     opacity: 0.15;
     pointer-events: none;
-
 }
-.container .card .content h3{
+.container .card .content h3 {
     color: white;
     font-size: 1.8em;
     z-index: 1;
     pointer-events: none;
 }
-.container .card .content p{
+.container .card .content p {
     font-size: 1em;
     color: white;
     pointer-events: none;
 }
-.container .card .content a{
+.container .card .content a {
     position: relative;
     display: inline-block;
     padding: 8px 20px;
