@@ -100,7 +100,7 @@ class TypeEffect {
 // the main method
 function main() {
     const textElement = document.querySelector(".title3");
-    const words = ["ME", "YOU", "EVERYONE"];
+    const words = ["NOT A PRIVILEGE", "A RIGHT"];
     new TypeEffect(textElement, words);
 }
 // calling the init method when the Dom content is loaded
