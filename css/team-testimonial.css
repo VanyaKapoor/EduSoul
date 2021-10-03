@@ -1,89 +1,88 @@
 #team {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: #2196f3; */
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #2196f3; */
+  overflow: hidden;
 }
 
 .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 320px;
-    background: #fff;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .swiper-slide-active {
-    background: #fff;
+  background: #fff;
 }
 
 .testimonialBox {
-    position: relative;
-    /* height: 38rem; */
-    padding: 40px;
-    padding-top: 90px;
-    color: #999;
+  position: relative;
+  /* height: 38rem; */
+  padding: 40px;
+  padding-top: 90px;
+  color: #999;
 }
 
 .testimonialBox .quote {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    opacity: 0.2;
-    /* padding-bottom: 10em; */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.2;
+  /* padding-bottom: 10em; */
 }
 
 .testimonialBox .details {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 .content p {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: rgba(56, 56, 56, 0.459);
-    font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: rgba(56, 56, 56, 0.459);
+  font-weight: bold;
 }
 
 .testimonialBox .details .imgBx {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
 }
 .testimonialBox .details .imgBx img {
-    position: absolute;
-    top: 0;
-    /* left: ; */
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  top: 0;
+  /* left: ; */
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .testimonialBox .details h3 {
-    letter-spacing: 1px;
-    color: #2195f3e0;
-    font-weight: lighter;
-
-    line-height: 1.1em;
+  letter-spacing: 1px;
+  color: #2195f3e0;
+  font-weight: lighter;
+  line-height: 1.1em;
 }
 
 .testimonialBox .details h3 span {
-    color: #2195f3e0;
-    font-weight: lighter;
-    font-size: 12px;
+  color: #2195f3e0;
+  font-weight: lighter;
+  font-size: 12px;
 }
