@@ -475,7 +475,8 @@ button:hover {
 .donation h1 {
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
-  padding: 20px;
+  padding: 30px;
+  /* margin-top: auto; */
   font-size: 40px;
   border-radius: 10px;
 }
@@ -701,4 +702,80 @@ footer {
   padding: 10px;
   width: 100%;
   color: black;
+}
+
+.modal {
+  width: 40%;
+  height: 50%;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  transition: .4s;
+  z-index: 2;
+}
+
+.modal .modal-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 18px;
+}
+
+.modal .modal-header button {
+  cursor: pointer;
+  font-size: 22px;
+  color: #21202c;
+  background: transparent;
+}
+
+.modal .modal-body {
+  text-align: center;
+}
+
+.modal .modal-body img {
+  width: 30%;
+  margin: 10px 0 30px;
+}
+
+.modal .modal-body h3 {
+  color: #21202c;
+  font-size: 27px;
+}
+
+.modal .modal-body p {
+  color: #5a586d;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.modal .modal-body button {
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+  background: #fe425b;
+  color: #ffffff;
+  padding: 12px 120px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+
+.modal .modal-body button:hover {
+  background: #e0344b;
+}
+
+.modal#hide {
+  opacity: 0;
+  transform: scale(.6);
+  pointer-events: none;
+}
+
+.modal#show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+#showButton {
+  cursor: pointer;
+  position: absolute;
 }

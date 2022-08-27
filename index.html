@@ -25,7 +25,7 @@
 
     <div class="banner">
         <div class="banner-overlay"></div>
-        <video autoplay loop src="assets/videos/main.mp4"></video>
+        <video muted autoplay loop src="assets/videos/main.mp4"></video>
     </div>
 
     <div class="landing-scene">
@@ -174,8 +174,22 @@
     <div class="donation-main" id='donate'>
         <section class="donation">
             <h1>BE A DONATOR TO HELP</h1>
-            <a href=" https://donorbox.org/edusoul-gadget-fundraiser-1-0-1" target="_blank"
-                rel="noopener noreferrer" name="donate">Donate</a>
+            <a target="_blank"
+                rel="noopener noreferrer" name="donate" id="showButton">Donate</a>
+
+                    <div class="modal" id="hide">
+                        <div class="modal-header">
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://embed.lottiefiles.com/animation/96375"></iframe>
+                            <h3>We are not accepting donations anymore!</h3>
+                            <p>
+                                As we achieved our mission of collecting money for the needy children so that we can provide them with the facilities for education
+                            </p>
+                            <button id="hideButton">Close</button>
+                        </div>
+                    </div>
+
         </section>
     </div>
 
