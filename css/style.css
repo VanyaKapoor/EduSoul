@@ -475,8 +475,7 @@ button:hover {
 .donation h1 {
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
-  padding: 30px;
-  /* margin-top: auto; */
+  padding: 20px;
   font-size: 40px;
   border-radius: 10px;
 }
@@ -753,7 +752,7 @@ footer {
   font-size: 22px;
   background: #fe425b;
   color: #ffffff;
-  padding: 12px 120px;
+  padding: 5px 120px;
   border-radius: 6px;
   letter-spacing: 1px;
   transition: .4s;
@@ -767,6 +766,7 @@ footer {
   opacity: 0;
   transform: scale(.6);
   pointer-events: none;
+  height: 10%;
 }
 
 .modal#show {
@@ -777,5 +777,19 @@ footer {
 
 #showButton {
   cursor: pointer;
-  position: absolute;
+  position: relative;
+}
+
+@media screen and (max-width: 1000px){
+  .modal {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .modal {
+    width: 90%;
+    height: auto;
+  }
 }
